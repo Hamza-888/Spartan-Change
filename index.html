@@ -25,14 +25,16 @@
                 font-size: 20rem;
                 color: red;
             }
-            footer{
-                background-color: black;
-                color: white;
-                height: 100px;
-                margin-bottom: 0px;
-                width: 100%;
-            }
             .footer{
+                color: white;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 60px;
+                background-color: black;
+            }
+            .footlink{
+                font-size: smaller;
                 color: white;
             }
         </style>
@@ -52,11 +54,14 @@
         </h1>
     </body>
     <footer>
-        Contact us:
-        <ul>
-            <li>
-                <img src="insta.png" alt="insta" height="25" width="25"> <a class="footer" href="https://www.instagram.com/spartan.change/">@spartan.change</a>
-            </li>
-        </ul>
+        <div class="footer">
+            Contact us:
+            <br>
+            <ul>
+                <li>
+                    <img src="insta.png" alt="insta" height="25" width="25"> <a class="footlink" href="https://www.instagram.com/spartan.change/">@spartan.change</a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </html>
