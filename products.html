@@ -27,8 +27,19 @@
                 font-size: x-large;
                 font-family: sans-serif;
             }
-            .img {
+            .product {
                 display: inline-block;
+                height: 260;
+                width: 242;
+                background-color: grey;
+            }
+            .img{
+                border: 1px black solid;
+                height: 242;
+            }
+            .text{
+                border: 1px solid black;
+                color: black;
             }
             .footer {
                 color: white;
@@ -46,6 +57,12 @@
             .main {
                 margin-bottom: 90px;
             }
+            button{
+                width: 100px;
+                height: 20px;
+                background-color: limegreen;
+                color: white;
+            }
             </style>
     </head>
     <header>
@@ -58,8 +75,66 @@
     </header>
     <body>
         <h1>
-            Listed below you'll find all our purchasable products, enjoy!
-        </h1>  
+            Listed below you'll find all our purchaseable products, enjoy!
+        </h1>
+        <br>  
+        <div class="main">
+            <div class="product">
+                <div class="img">
+                    <img src="Spartanlights.jpg" height="250" width="200">
+                </div>
+                <div class="text">
+                    <p>
+                        Spartan Lights, 70.00 EGP
+                    </p> 
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="img">
+                    <img src="Spalabya.jpg" height="250" width="200">
+                </div>
+                <div class="text">
+                    <p>
+                        Spalabya, 250.00 EGP
+                    </p> 
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="img">
+                    <img src="Sprocs.jpg" height="250" width="200">
+                </div>
+                <div class="text">
+                    <p>
+                        Sprocs, 350.00 EGP
+                    </p> 
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="img">
+                    <img src="Spordans.jpg" height="250" width="200">
+                </div>
+                <div class="text">
+                    <p>
+                        Spordans, 3500.00 EGP
+                    </p> 
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="img">
+                    <img src="Spartancar.jpg" height="250" width="260">
+                </div>
+                <div class="text">
+                    <p>
+                        Spartan Car, 1,200,000.00 EGP
+                    </p> 
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
         <footer>
             <div class="footer">
                 Contact us:
